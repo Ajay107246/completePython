@@ -22,3 +22,23 @@ print("Hello " + name)  # output> Hello New Value
 length = len(name)
 print("Length of variable " + name + " is: " + str(length))  # output length of string
 print(len(input("Enter your input for length: ")))  # output length of string
+
+# Variables, reusability of code and reading code easily
+username = "vscode_user"
+length_username = len(username)
+print("Username is: " + username)   # output username
+print("Length of username is: " + str(length_username))  # output length of username
+
+# Switch value of two variables
+a = 5
+b = 10
+print("Before Swap: a =", a, ", b =", b)
+a, b = b, a  # swap values
+print("After Swap: a =", a, ", b =", b)
+
+# Band name generator
+print("Welcome to the Band Name Generator.")
+city = input("What's name of the city you grew up in? \n") #nsk
+pet = input("What's your pet's name? \n") #pip
+band_name = city + " " + pet
+print("Your band name could be " + band_name) #output band name: <city> <pet>
